@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3em;
+    background-image: url(../img/background.jpg);
+    /* Photo by Giulia Perera on Unsplash */
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #e9eae5;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    height: 70px;
+    text-align: center;
+}
+
+.nav ol li {
+    display: inline-block;
+    margin: 20px 0 0 20px;
+    
+}
+
+.nav ol li a {
+    font-family: "Chango", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #e9eae5;
+    text-decoration: underline;
+    
+      
+}
+
+.nav ol li a:hover { 
+    color: white;
+}
+
+.wrapper {
+    width: 70%;
+    margin: auto;
+
+}
+.main img {
+    width: 100%;
+    height: auto;
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: auto;
+    
+}
+
+.main section{
+    padding-bottom: 60px;
+}
+.album {
+    display: flex;
+}
+
+.album div img {
+    width: 300px;
+    height: auto;
+}
+
+.album div h3 a {
+    color:#e9eae5 ;
+}
+
+.album div h3 a:hover {
+    text-shadow: 2px 2px #5f584d;
+}
+
+.album div p a {
+    color: #e9eae5;
+}
+
+.album div p a:hover {
+    text-shadow: 2px 2px #5f584d;
+}
+
+.album div:nth-child(2) {
+    padding: 50px;
+}
+
+section li {
+    list-style: none;
+}
+
+ .album-info {
+    display: flex;
+ }
+
+.album-info div {
+    flex: 1;
+    margin: 20px;
+}
+
+.album-info div:nth-child(2) {
+    margin: auto;
+    padding: auto; 
+}
+.album-info h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.album-info h2 {
+    text-align: center;
+    font-size: 3em;
+}
+
+.album-info audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.songs {
+    display: flex;
+}
+
+.songs div {
+    flex: 1;
+    margin: 10px;
+    padding-left: 15px; 
+    padding-right: 15px;
+}
+
+.songs div h4 {
+    font-size: 0.8em;
+    color: #f89721;
+}
+
+.songs div p {
+    font-size: 0.7em;
+}
+
+.merchandice {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.merchandice div {
+    border: 2px solid #e9eae5;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.merchandice div img {
+    width: 250px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.merchandice div h5 {
+    text-align: center;
+}
+
+.merchandice div button {
+    border: 1px solid #e9eae5;
+    border-radius: 20px;
+    color: #e9eae5;
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+    background-color: transparent;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
+
+.merchandice div button:hover {
+    border: 1px solid #e9eae5;
+    background-color: #e9eae5;
+    color: #5f584d;
+}
+
+
+.footer {
+    text-align: center;
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer li {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+    font-size: 0.8em;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #e9eae5;
+}
+
+.footer li a:hover {
+    color: #5f584d;
+}
+
+.footer p {
+    font-size: 0.8em;
+}
+
+.footer button {
+    color: #e9eae5;
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 3px solid #e9eae5;
+    padding: 15px;
+}
+
+.footer button:hover {
+   box-shadow : 4px 4px #5f584d;
+   cursor: pointer;
+}
